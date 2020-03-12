@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
+    <h2>Essential Linksssss</h2>
     <ul>
       <li>
         <a
@@ -90,6 +90,10 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  mounted () {
+    console.error(this)
+    this.$router.push('/board')
   }
 }
 </script>
